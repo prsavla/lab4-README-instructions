@@ -28,7 +28,7 @@ function discountPrices(prices, discount) {
     if (prices.length === 0) {
         return false;
     }
-    if (typeof discount !== 'number' || discount < 0 || discount > 1 || !Array.isArray(prices)) {    {
+    if (typeof discount !== 'number' || discount < 0 || discount > 1 || !Array.isArray(prices))     {
         return false;
     }
 
